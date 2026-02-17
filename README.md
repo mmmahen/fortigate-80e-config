@@ -28,12 +28,20 @@ This project showcases the configuration and management of a **FortiGate 80E** f
 
 ---
 
+### 4. IPsec VPN (Site-to-Site)
+> Configuration of secure, encrypted tunnels for branch-to-site connectivity using the FortiGate IPsec Wizard.
+
+![VPN Setup](Screenshots/vpn_setup.png)
+
+---
+
 ## 📂 Project Structure
 
 ```
 ├── README.md
 └── Screenshots/
     ├── dashboard.png
+    ├── vpn_setup.png
     ├── policy_routes.png
     └── web_filter.png
 ```
@@ -43,6 +51,7 @@ This project showcases the configuration and management of a **FortiGate 80E** f
 ## 🧠 Skills Demonstrated
 
 - **Multi-WAN Management**: Configuring and optimizing SD-WAN and policy routes for redundant ISP connections.
+- **VPN Tunnel Configuration**: Establishing secure Site-to-Site IPsec tunnels for branch connectivity.
 - **Firewall Policy Administration**: Managing incoming and outgoing traffic rules with a focus on security and performance.
 - **Security Profiles**: Implementing Web Filtering, AntiVirus, and IPS to protect the enterprise network.
 - **System Monitoring**: Using Fortios dashboards for health checks and resource auditing.
